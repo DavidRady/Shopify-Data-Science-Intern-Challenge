@@ -14,7 +14,7 @@
 Question #1 Solution:
 
 <ol type="a">
-    <li>After observing the data, it is clear that the naive calculation of the AOV is caused by the the few outliers. The vast majority of the order amounts are under $1000, however, there are some outliers with values up to $704000. A better way to evaluate this data would be to use a metric that is not sensitive to outliers, such as the median or the mode.
+    <li>After observing the data, it is clear that the abnormal AOV is caused by the few outliers. The vast majority of the order amounts are under $1000, however, there are some outliers with values up to $704000. A better way to evaluate this data would be to use a metric that is not sensitive to outliers, such as the median or the mode.
     </li><br>
     <li>For this dataset I would use the median since it is much less affected by outliers. The median is the middle value from all the order values. Using this metric prevents huge outliers in the order amounts, such as $700400, from having such a large influence in the metric's value.
     </li><br>
